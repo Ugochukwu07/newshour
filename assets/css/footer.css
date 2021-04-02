@@ -1,0 +1,79 @@
+
+/*footer*/
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 0px;
+    background: #0d0124;
+    color: white !important;
+    border: 1px solid red;
+}
+
+.footer .footer-section.main-section,
+.footer .footer-section.bottom-section {
+    position: inherit;
+    width: inherit;
+    display: block;
+}
+
+.footer .footer-section.main-section {
+    position: relative;
+    height: 350px;
+}
+
+.footer .footer-section.main-section .about.footer-content .logo {
+    height: inherit;
+    margin-left: 2em;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.footer .footer-section.main-section .about.footer-content .logo-text {
+    margin: 8px;
+    font-family: 'Lora', serif;
+}
+
+.footer .footer-section.main-section .about.footer-content .logo-text span {
+    color: rgb(86, 226, 236);
+}
+
+.footer .footer-section.main-section .about.footer-content .logo-text h1 {
+    position: relative;
+    display: block;
+    /*  width: 100%; */
+    color: white !important;
+}
+
+.footer .footer-section.main-section .about.footer-content .about-text {
+    position: absolute !important;
+    display: inline-block;
+}
+
+.footer .footer-section.main-section .about.footer-content,
+.footer .footer-section.main-section .quick.footer-content,
+.footer .footer-section.main-section .contact.footer-content {
+    float: left;
+    height: inherit;
+    width: 32.5%;
+    margin: 5px;
+    padding: 5px;
+}
+
+.footer .footer-section.bottom-section {
+    position: absolute;
+    text-align: center;
+    bottom: 0px;
+    height: 30px;
+    padding: 5px;
+    color: khaki;
+    background: #161022;
+    font-family: 'Bowlby One SC' sans-serif !important;
+}
+
+.footer .footer-section.main-section .footer-content {
+    border: 1px solid red;
+}

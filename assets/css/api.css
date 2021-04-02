@@ -1,0 +1,26 @@
+.main,
+.side-bar,
+.ad-section {
+    position: relative;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.content {
+    width: 95% !important;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ad-section {
+    flex: 2;
+}
+
+.main {
+    flex: 6;
+    padding: 5px;
+}
+
+.side-bar {
+    flex: 2;
+}
